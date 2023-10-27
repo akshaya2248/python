@@ -1,0 +1,7 @@
+new=(2,4,6,10,14,20)
+new1=list(new)
+print(new1)
+a=(int (input("enter a item to add \n")))
+new1.append(a)
+new=tuple(new1)
+print(new)
